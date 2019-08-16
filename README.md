@@ -1,3 +1,3 @@
 # Java_Practise
-Simple Java Practise
-TreeMirror.java --> Mirror of a binary tree
+Simple Java Practice
+1.TreeMirror.java --> Mirror of a binary tree
