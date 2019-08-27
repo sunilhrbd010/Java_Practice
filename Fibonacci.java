@@ -3,9 +3,9 @@ class Fibonacci{
 		//using recursion
 
 		
-		// if(upto==1 || upto==2)
+		// if(number==1 || number==2)
 		// 		return 1;
-		// return fibbSeries(upto-1) + fibbSeries(upto-2);
+		// return fibbSeries(number-1) + fibbSeries(number-2);
 
 
 		//using iterative

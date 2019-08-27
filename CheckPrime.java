@@ -17,8 +17,12 @@ class CheckPrime{
 		}
 		
 	}
+
+
 	public static void main(String[] args) {
 		int num = 2;
 		checkPrime(num);
+
+
 	}
 }

@@ -16,6 +16,10 @@ class NthMaximum{
 		arr[high]=arr[pIndex];
 		arr[pIndex]=temp;
 		System.out.println(pIndex);
+
+		for(int j=0;j<arr.length;j++){
+			System.out.print(arr[j]+ " ");
+		}
 		
 		return pIndex;
 	}
@@ -34,7 +38,7 @@ class NthMaximum{
 	}
 	public static void main(String[] args) {
 		int[] arr = {2,16,8,12,15,6,10};
-		int kMax=6;
+		int kMax=5;
 		int kthMax=quickSort(arr,0,arr.length-1,kMax-1);
 
 		for(int j=0;j<arr.length;j++){

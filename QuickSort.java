@@ -39,7 +39,7 @@ class QuickSort{
 		for(int i=0;i<arr.length;i++){
 			System.out.print(arr[i]+ " ");
 		}
-
+		System.out.println();
 		quickSort(arr,0,arr.length-1);	
 		
 		System.out.println();
